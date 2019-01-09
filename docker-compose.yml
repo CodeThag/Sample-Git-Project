@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  samplegitproject:
+    image: ${DOCKER_REGISTRY}samplegitproject
+    build:
+      context: .\Sample Git Project
+      dockerfile: Dockerfile
